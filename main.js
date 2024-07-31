@@ -13,52 +13,13 @@ function tell_game(game){
     document.write(game);
 }
 
-let a = 30;
+let a = "2";
+let b = 1;
 
-//if else 
-if (a<20){
-    tell_name(user.name);
-} else {
-    tell_game(games);
-}
-
-
-// conditional terniary operator
-var de = 100;
-var bw;
-
-de == 100 ? (bw = "Yes") : (bw = "No");
-
-document.write(bw)
-
-
-//switch case
-var day = 1;
-
-switch (day) {
-    case 1:
-        document.write("Monday");
-        break;
-    case 2:
-        document.write("Tuesday");
-        break;
-    case 3:
-        document.write("Wednesday");
-        break;
-    case 4:
-        document.write("Thursday");
-        break;
-    case 5:
-        document.write("Friday");
-        break;
-    case 6:
-        document.write("Saturday");
-        break;
-    case 7:
-        document.write("Sunday");
-        break;
-
-    default:
-        document.write("The date you entered is wrong.")
-        break;
+if (a===b){
+    document.write("Values are equal and data types are equal")
+} else if (a==b){
+    document.write("values are equal but data type is different.")
+} else{
+    document.write("Values and data types are different.")
 }
