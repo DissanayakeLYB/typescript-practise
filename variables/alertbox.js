@@ -18,3 +18,4 @@ if (entrance != "lasith"){
 } else {
     alert("Welcome to my diary!");
 }
+
