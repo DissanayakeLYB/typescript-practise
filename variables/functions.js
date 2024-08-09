@@ -6,3 +6,8 @@ function tell_name(name){
 function tell_game(game){
     document.write(game);
 }
+
+function addition(a,b){
+    alert(a+b);
+}
+
