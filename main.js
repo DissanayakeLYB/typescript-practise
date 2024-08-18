@@ -5,3 +5,10 @@ function addition(a,b){
 var x = addition(31,342)
   
 document.write(x)
+
+function HW(){
+    document.write("Hello World!")
+}
+
+
+<button onclick="HW()">Click Here</button>
